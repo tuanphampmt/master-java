@@ -8,7 +8,7 @@ public class trycatchfinally {
             System.out.println("thực hiện chương trình, nếu lỗi nhảy xuống catch");
             int x = 1/0;
         } catch(Exception e) {
-            System.out.println("loi chia cho khong");
+            System.out.println("loi chia cho 0");
         } finally {
             System.out.println("luon luon thực hiện");
         }

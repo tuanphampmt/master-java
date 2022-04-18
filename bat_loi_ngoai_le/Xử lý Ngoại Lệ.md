@@ -1,5 +1,5 @@
 Xử lý Ngoại Lệ
-1. Cú pháp
+1. Khối lệnh try-catch-finally trong java
 
     try {
     
@@ -36,4 +36,4 @@ Xử lý Ngoại Lệ
 4. Từ khóa throws trong java
 
        - Từ khóa throws trong java được sử dụng để khai báo một ngoại lệ.
-       - Ném một ngoại lệ ra ngoài và được xử lý ở một hàm khác
+       - Ném một ngoại lệ ra ngoài và ngoại lệ sau khi ném được xử lý ở một hàm khác
