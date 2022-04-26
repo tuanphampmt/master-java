@@ -1,6 +1,6 @@
-package collection.Set_Interface;
+package collections.Set_Interface;
 
-import collection.User;
+import collections.User;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;

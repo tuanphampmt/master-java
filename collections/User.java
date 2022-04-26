@@ -1,13 +1,11 @@
-package collection;
+package collections;
 
-import lap_trinh_huong_doi_tuong.Person;
-
-public class Student implements Comparable<Student>  {
+public class User   {
     String name;
     int age;
     boolean gender;
 
-    public Student(String name, int age, boolean gender) {
+    public User(String name, int age, boolean gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -42,8 +40,4 @@ public class Student implements Comparable<Student>  {
         return "Student@name=" + name + ",age=" + age + ",gender=" + gender;
     }
 
-    @Override
-    public int compareTo(Student student) {
-        return this.getName().compareTo(student.getName());
-    }
 }

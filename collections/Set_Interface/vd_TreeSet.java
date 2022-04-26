@@ -1,8 +1,8 @@
-package collection.Set_Interface;
+package collections.Set_Interface;
 
 
 
-import collection.Student;
+import collections.Student;
 
 import java.util.TreeSet;
 
