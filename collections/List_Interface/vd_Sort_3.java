@@ -37,7 +37,8 @@ public class vd_Sort_3 {
 
         // sort giảm dần
         List<Person> sortPerson2 = list.stream()
-                .sorted(Comparator.comparing(Person::getEmail).reversed()).collect(Collectors.toList());
+                .sorted(Comparator.comparing(Person::getEmail).reversed())
+                .collect(Collectors.toList());
         System.out.println("List sau khi sort giảm dần: ");
         for (Person item : sortPerson2) {
             System.out.println(item);
