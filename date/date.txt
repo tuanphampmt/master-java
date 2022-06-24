@@ -1,0 +1,16 @@
+Date ==> String
+
+Date date = new Date();
+
+DateFormat df = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+
+String dateString  = df.format(date);
+
+
+String ==> Date
+
+String dateString = "23/04/2005 23:11:59";
+
+DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+
+Date date = df.parse(dateString);
